@@ -5,4 +5,4 @@
 
 from selenium import webdriver
 driver    = webdriver.Chrome(executable_path="/home/soporte/Downloads/chromedriver_linux64/chromedriver",options=driver_options)
-
+driver.get("https://www.igp.gob.pe/informacion-institucional/seguridad_salud_trabajo/formatos/fscovid19/public/")
