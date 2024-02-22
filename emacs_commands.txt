@@ -1,0 +1,132 @@
+#########################################################
+######## List of commands for use emacs #################
+#########################################################
+Put in practice this amazing editor...! :)
+
+[ CTRL ] + x + 1
+###########################################
+Create windows or folders like terminals to work, if u r editing some text it copy everything
+################################################
+[ CTRL ] + x + 2 #Other window
+
+[ CTRL ] + x + 0 #close that window
+
+[ CTRL ] + x + o # move to other windows.
+
+[ CTRL ] + x + [ CTRL ]  + C #Close emacs.
+
+[ CTRL ] + x + u # command to undo operation.
+
+[ CTRL] + X [CTRL] +F  # Crear nuevo archivo
+
+#######################################
+CHANGE  BUFFER
+#######################################
+
+[ CTRL ] + x + <- (left)
+
+[ CTRL ] + x + -> (riht)
+
+###########################
+Copy and delete command
+###########################
+
+[ CTRL ] + d #delete character under cursor
+
+[ CTRL ] +  #delete the rest of the current line
+
+[ TAB] + -> # Select with flecha
+
+[ ALT ] + w #Copy
+
+[ CTRL ] + y # paste
+ 
+[ CTRL ] + w #copy the line but first we net to put [ CTRL ] SHIFT + [space bar] then i could select  moving forward with the button arrow.
+
+[ CTRL ] + y # paste the line copied before.
+
+[ CTRL ] + x + [ CTRL ]  +f # Allows you to find a file in your folder
+
+[ CTRL ] + x + [ CTRL ]  +s # save buffer or file edition
+
+[ CTRL ] + x + [ CTRL ]  +w # prompts for a new filename and writes the buffer
+######################
+Cursor/screen
+######################
+[ CTRL ] + a # go to the begining of line
+
+[ CTRL ] + e # g to end of line
+
+[ CTRL ] + f # move forward one caracter
+
+[ CTRL ] + b # move backward one caracter
+
+[ CTRL ] + p # move to previus line
+
+[ CTRL ] + n # move to next line
+
+[ CTRL ] + v # scroll filel forwrd by one screefull
+   
+#############################
+For search words in buffer:
+#############################
+
+[ALT] +s +w + word # to search for a word
+
+[ CTRL ] + s # isearch forward Buscar hacia adelante
+
+[CTRL] + s # jump to next occurrence
+
+[CTRL] + r # jump to previos occurrence
+
+[ALT] + g +[ALT] +g + xx # go to line xx
+
+[CTRL]+ x + h # Select all the contain
+
+########################################
+Add line numbers:
+########################################
+Alt+x linum-mode
+
+########################################
+Change theme color
+########################################
+sudo apt-get install emacs-goodies-el
+
+M-x color-theme-select
+choose clarity and beauty
+Alt 
+########################################
+Activate SHELL
+########################################
+
+[ALT]+ x +shell
+
+
+##########################################
+Identing Several lines
+##########################################
+
+Seleccionamos varias lineas primero
+
+[Tecla Mayus] + flecha arriba o abajo
+
+Luego:
+
+[CTRL] + u + [tab]
+
+#########################################
+GO TO THE LINE NUMBER
+#########################################
+
+[ALT] + g + g # go to the line number.
+
+[ALT] + <     # go to the begining of the buffer
+
+[ALT] + >     # go to the end of the buffer
+
+
+#########################################
+CERRAR BUFFER
+#########################################
+[CTRL] + x + k # cerrar buffer 
