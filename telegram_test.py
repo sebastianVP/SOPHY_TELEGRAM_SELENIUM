@@ -17,8 +17,12 @@ class Sebastian():
 if __name__ == "__main__":
     bot = Sebastian()
     bot.open()
-    friend = 5449371759 # id Alexander Valdez Telegram userinfobot
-    msg    = "Ya es hora de dormir"
+    #friend = 5449371759 # GOOD - id Alexander Valdez Telegram userinfobot
+    #friend = 5782251389 #-5782251389 # id Edson
+    friend = -4164870584 # GOOD - channel Group Test_bots Alexander Valdez
+    #friend = -2125490739 # channel Group SOPHy
+    #friend = 1583095431  # Boris Valdez
+    msg    = "Ya es hora de dormir, soy la IA Sebastian creada por la Magia"
     bot.message(friend,msg)
     pic    = "C:/Users/soporte/Pictures/Saved Pictures/BBVA_images.jfif"
     bot.send_pic(friend,pic)
