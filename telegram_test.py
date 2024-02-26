@@ -18,7 +18,7 @@ def handle(msg):
     command = msg['text']
     print('chat_id:',chat_id)
     print('got command:',command)
-    if command=='/echo':
+    if command=='echo':
         bot.bot.sendMessage(chat_id,"Echo :D")
 
 if __name__ == "__main__":
